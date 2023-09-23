@@ -1,0 +1,22 @@
+{
+  "name": "gql-apollo-4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --quiet index.js"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.9.3",
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "esm": "^3.2.25",
+    "graphql": "^16.8.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
